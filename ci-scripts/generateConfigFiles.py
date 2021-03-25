@@ -30,7 +30,7 @@ class spgwcConfigGen():
 		self.kind = ''
 		self.s11c_name = ''
 		self.sxc_name = ''
-		self.apn = 'apn.oai.svc.cluster.local'
+		self.apn = 'apn0.openair4G.eur'
 		self.dns1_ip = ipaddress.ip_address('192.168.61.1')
 		self.dns2_ip = ipaddress.ip_address('8.8.4.4')
 		self.uePoolRange = ipaddress.ip_network('12.1.1.0/24')
